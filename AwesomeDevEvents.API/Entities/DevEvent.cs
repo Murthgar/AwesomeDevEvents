@@ -7,7 +7,7 @@
             Speakers = new List<DevEventSpeaker>();
             IsDeleted = false;
         }
-        public string Id { get; set; }
+        public Guid Id { get; set; }
         public string Title { get; set; }
         public string Description {  get; set; }
         public DateTime StartDate { get; set; }
